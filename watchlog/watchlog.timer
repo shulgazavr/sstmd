@@ -1,0 +1,9 @@
+[Unit]
+Description=Run wathclog every 30 sec
+
+[Timer]
+OnUnitActiveSec=30
+Unit=watchlog.service
+
+[Install]
+WantedBy=multy-user.target
