@@ -1,5 +1,5 @@
 MACHINES = {
-  :"kernel-update" => {
+  :"centos8" => {
               :box_name => "centos/stream8",
               :box_version => "20210210.0",
               :cpus => 2,
